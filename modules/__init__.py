@@ -1,1 +1,1 @@
-from .activations import *
+from .gate_funcs import *
