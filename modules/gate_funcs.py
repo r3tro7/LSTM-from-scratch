@@ -1,5 +1,6 @@
 import numpy as np
 #grads and theta are parameter matrices. The * symbol here is a shorthand for numpy.multiply()
+#This function performs one gradient iteration on one layer of the network 
 def cell_gradient(grads, theta, lr=0.05):
     dwa, dwb, dwc, dwd, dwv, dba, dbb, dbc, dbd, dbv = grads
     wa, wb, wc, wd, wv, ba, bb, bc, bd, bv = theta
