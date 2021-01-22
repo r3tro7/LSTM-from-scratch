@@ -1,5 +1,5 @@
 import numpy as np
-#activation functions for activating output cells of lstm. This is required to eliminate linearity of values.
+#activation functions for activating output cells of lstm. We'll require sigmoid, tanh and their derivatives dsigmoid and dtanh
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
